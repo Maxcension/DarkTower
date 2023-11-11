@@ -1,10 +1,17 @@
 # DarkTower
 
-Recreation of the game Dark Tower
+This repo was, at first, an attempt to recreate the game DarkTower (which was a game available on PDC console like the PDC100) from scratch.
+However, I didn't had the time or skills to do that, but I found a way to play it with an emulator called MAME.
 
-## What's that?
+## Tutorial
 
-Dark Tower was a game available in the console PDC-100, also called PDC Vision, by VideoJet.
-It was a puzzle game I loved, so I decided to recreate it in Processing.
-Considering the fact that i haven't the game except on my console (i tried to find a dump or anything else but there was nothing in internet), the graphics and the music of the game will not be the same as the original game, but I will try my best to do something as close as the original. The gameplay and the level design will be EXACTLY the same.
-If you have or you know anything about this game, you can DM me on Twitter (@Maxcension) or send me an email (***REMOVED***).
+* First step, you have to download the [MAME emulator](https://mamedev.org).
+* Then, you have to download the dumped rom of the PDC100.
+  * Slowly way through [Internet Archive](https://archive.org/download/mame-merged/mame-merged/) (search for "pdc100.zip").
+  * Rapid way through the repo.
+* Once the downloads are finished, install MAME and when it's done, copy/paste the pdc100.zip to the roms folder in the MAME folder (**don't unzip the file!**).
+* Start MAME, select "available" in the left and then click ont "PDC100 - Pocket Dream (Anncia, US)".
+* Enjoy! :)
+
+The buttons on your keyboard are the arrows and ctrl/alt.
+Also, before starting the PDC rom, you can select "configure options", go to "video option" and then turn on "HSLS" to improve quality.
